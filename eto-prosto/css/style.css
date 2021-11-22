@@ -1,0 +1,68 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .attention {
+            position: relative;
+            padding: 29px 29px 29px;
+            margin-bottom: 50px;
+            background-color: #00aeef;
+            color: #FFFFFF;
+        }
+        
+        .career .attention {
+            padding: 10px 30px 30px;
+            text-align: center;
+        }
+        
+        .attention:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 33px;
+            height: 33px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhAgMAAAAqiir8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAANwaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6RjY3REVBNDc5ODE4RTMxMThEQjhGMkEzRjNCMDZDQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDE3MTFDOTRGQkY2MTFFNDlDODU4NzU3QUYxNkY0RjgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDE3MTFDOTNGQkY2MTFFNDlDODU4NzU3QUYxNkY0RjgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkZDBkZjgyMi0xOGQzLTQ1YzItYjIzNy02ZWUwYjMzNGY3ZjUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RjY3REVBNDc5ODE4RTMxMThEQjhGMkEzRjNCMDZDQTQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7ecZqKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRFAJnS////Qbjl8nHrdwAAAFBJREFUGNM9ykEVgDAAw1DebhVSH5jADybql22syekfcl2ntxh3JWSUajyVkFGq8VRCRqnmdiRklGptv4SMUu1tS8go1b8tCRmlOtuUkFGqD3d/M9mOn+1UAAAAAElFTkSuQmCC) 0 0 no-repeat;
+        }
+        
+        .career {
+            margin: 30px 0 0 30px;
+            width: 15%;
+        }
+        
+        .phone-text,
+        .email-text {
+            text-align: left;
+            margin-top: 5px;
+        }
+        
+        .phone-text {
+            margin-top: 15px;
+        }
+        
+        .attention .phone-text:before,
+        .attention .email-text:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 14px;
+            height: 14px;
+            background: url('/eto-prosto/img/og-sprite.png') 0 0 no-repeat;
+        }
+        
+        .attention .email-text:before {
+            bottom: 0;
+            background-position: -135px 0;
+        }
+        
+        .attention .phone-text:before {
+            top: 4px;
+            background-position: -120px 0;
+        }
+        
+        .career-phone {
+            display: flex;
+        }
